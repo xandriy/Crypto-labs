@@ -1,0 +1,86 @@
+ textarea {
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    body {
+        background-color: lightgray;
+		text-align: center;
+    }
+
+
+    .formData {
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .enteredData {
+        padding: 20px;
+        text-align: center;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    input[type=number] {
+        font-size: 15px;
+        width: 150px;
+        margin-top: 5px;
+    }
+
+    input[type=submit] {
+        font-size: 20px;
+    }
+    
+    p{
+    	text-align:center;
+    	font-size:40px;
+    	margin-top: 0px;
+    	margin: 5px 0 5px 0;
+    }
+    
+    .frequency{
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 10% ;
+    }
+   
+    
+     .frequency p{
+        width: 80px;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    
+    h4{
+        text-align: center;
+        font-size: 28px;
+        color: darkslategray;
+    }
+    
+    .chart{
+        display: flex;
+       	justify-content: center;
+        align-items:flex-end;    
+    }
+    
+    .chart .item{
+        width: 20px;
+        margin: 0 5px;
+        bottom: 0;
+    }
+    
+    .chart .item p{
+        margin: 0;
+        font-size: 14px;
+    } 
+    
+    .chart .item .block{
+        background-color: #29083f;
+        width: 18px;
+        height: 2px;
+    }
